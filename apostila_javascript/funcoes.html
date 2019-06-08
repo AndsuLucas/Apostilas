@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<h1>funções</h1>
+	<script>
+		/*
+		function somar(n1,n2) {
+
+			return parseInt(n1+n2);
+
+
+		}
+		*/
+		//podemos tratar uma funcao com objeto
+		//somar.teste = "anderson lucas";
+		//console.log(somar.teste);
+		
+
+		/*
+		var funcaoAnonima = function(){
+
+			console.log("teste");
+
+		};
+		*/
+		//funcaoAnonima();
+
+		//podemos passar funções como parametros de outros funções
+		/*
+		var funcaoParametro = function(f){
+
+			f();
+
+
+		};
+
+		funcaoParametro(function(){
+
+			console.log("função como parametro commpleta");
+
+
+		});
+
+		
+
+		*/
+
+		//escopos
+		//escopo global
+		/*
+		var x = 3;
+
+		function mostrarX () {
+			//no escopo desta função x vale 10
+			var x = 10;
+			console.log(x);
+
+		} 
+
+		mostrarX();
+		console.log(x);
+		*/
+
+		//funcoes auto_invocáveis
+		/*
+		(function (){
+
+			console.log("hello world")
+
+
+		})();
+		*/
+
+		//quantidade de argumentos indefinidos 
+		/*
+		function somar () {
+			//mostrando os argumentos que foram passados
+			//console.log(arguments)
+			var posicao = 0;
+			var resultado = 0;
+			// "foreach" das funções utilizando os argumentos;
+			while(arguments[posicao]){
+
+				resultado += arguments[posicao];
+				posicao ++;
+
+			}
+
+			return  resultado;
+		}
+		resultado_final = somar(1,2,4,3);
+
+		console.log(resultado_final);
+		*/
+	</script>
+
+	
+</body>
+</html>
