@@ -9,11 +9,42 @@
 <body>
 	<h1>Strings</h1>
 	<script>
-		//método formal
+		//método formal com objetos
 		//(String é objeto)
 		var meuTexto = new String("Hello world");
-		//método informal
+		//método informal literal
 		//var meuTexto = "String";
+
+		/* como a string é um objeto, podemos manipular seus métodos e atributos */
+		var nome = "Anderson Lucas Silva de Oliveira ";
+
+		var nomeFormatado = formatarNome(nome);
+
+		/* trocar posição do último nome */
+		function formatarNome(nome){
+			var nome = nome.trim();
+			//pegando o último índice do espaço
+			const ultimoEspaco    = nome.lastIndexOf(" ")+1;
+			//caso não tenha espaços entre os nomes
+			if (ultimoEspaco <= 0 ){
+
+				return nome;
+
+			}
+			
+			const palavraCortada  = nome.substring(0, ultimoEspaco);
+		 	const nomeFinal       = nome.slice(ultimoEspaco)+", "+palavraCortada;
+		
+			return nomeFinal.trim();
+
+
+		} 
+
+		
+
+		console.log(nomeFormatado);
+
+
 	</script>
 </body>
 </html>
