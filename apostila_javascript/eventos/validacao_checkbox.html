@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title></title>
+		<link rel="stylesheet" href="">
+	</head>
+	<body>
+		<div class="container" style="max-width: 300px; margin: 0 auto;">
+			<form action="#">
+				<textarea name="contrato" id="contrato" cols="30" rows="10" readonly style="resize: none">
+				Contrato de serviço
+				</textarea>
+				<label for="">Aceito os termos<input type="checkbox" id="termo" style="display:inline-block;" ></label>
+				<input type="submit" value="continuar" id="btnEnviar">
+			</form>
+		</div>
+		<script>
+				(function(){
+
+					var btn 	= document.querySelector("#btnEnviar");
+					var termo 	= document.querySelector("#termo");
+					
+					//estamos desabilitando o botão
+					btn.disabled = true;
+
+					termo.addEventListener("change",function(){
+							//propriedade checked retorna true ou false
+						if (this.checked) {
+							btn.disabled = false;
+						} else {
+							btn.disabled = true;
+						}
+					});
+				})();
+		</script>
+	</body>
+</html>

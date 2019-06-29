@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<h1>Manipulando o DOM</h1>
+	<p class="paragraf" id="idp">
+		manipulação de elementos do documento html
+	</p>
+	<p>
+		hello world 2
+	</p>
+	<section class="section" id="idsection">
+		<p class="p">loremLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p class="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</section>	
+	<script>
+		//document. getElementById,getElementsByTagName,getElementsByClassName,querySelector,querySeletorAll
+
+		//document.getElementById("") -> seleciona pelo id
+
+		//document.getElementByClassName -> retorna uma nodelists com as classes selecionadas
+
+		//document.getElementsByClassName("p")[0].textContent = "hello world";
+
+
+		//selecionando pela tag
+
+		//document.getElementsByTagName("p") retorna uma nodelist
+
+
+		//querySelector -> selecionamos como se fosse no css | retorna apenas um elemento
+
+		//querySelectorAll -> selecionamos como se fosse no css | retorna uma nodelist
+
+		//document.querySelectorAll(".p") //retorna todas as classes "p"
+		
+		//document.querySelectorAll(".section p") //retorna todos os 'filhos' P de SECTION, igual no class
+
+	</script>
+</body>
+</html>

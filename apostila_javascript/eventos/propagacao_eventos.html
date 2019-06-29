@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<div class="container">
+		<h1>Propagação de Eventos</h1>
+		<div id="d1" style="background-color: red; padding: 25px">
+			d1 aqui
+			<span style="background-color: yellow;">span dentro de d1</span>
+		</div>
+	</div>	
+	<script>
+		(function(){
+			const d1 = document.querySelector("#d1");
+			const d1Span = document.querySelector("#d1 span");
+
+			//ao clicar no span ambos os eventos vao ser invocados
+			d1.addEventListener("click", function(){
+				console.log('click no d1');
+
+			});
+
+			d1Span.addEventListener("click", function(event){
+				console.log("click no span");
+
+			});		
+
+			
+		})();
+	</script>
+</body>
+</html>

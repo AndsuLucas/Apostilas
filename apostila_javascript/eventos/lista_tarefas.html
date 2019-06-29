@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title></title>
+		<link rel="stylesheet" href="">
+	</head>
+	<body>
+		<div class="container">
+			<input type="text" id="newItem">
+			<button id="cadastrar">Cadastrar Tarefa</button>
+			<ul id="lista">
+				<li class="item">Estudar 1</li>
+				<li class="item">Estudar 2</li>
+				<li class="item">Estudar 3</li>
+			</ul>
+		</div>
+		<script>
+			(function(){
+				const listaTarefa = document.querySelector("#lista");
+				const newItem     = document.querySelector("#newItem");
+				const btn         = document.querySelector("#cadastrar");
+				const lis         = document.querySelectorAll("#lista li");
+				
+				function adicionarTarefa (){
+					if (newItem.value.trim().length !== 0) {
+						var texto 		 = document.createTextNode(newItem.value);
+						var elementoHtml = document.createElement("li");
+						elementoHtml.appendChild(texto);
+						elementoHtml.className = "item"; 
+						listaTarefa.appendChild(elementoHtml);
+						
+						elementoHtml.addEventListener("click",remover);	
+						//limpando os dados do input	
+						newItem.value = "";
+						newItem.focus();
+					}
+				}
+				btn.addEventListener("click", adicionarTarefa);
+				
+				function remover(){
+					var validacao = window.confirm(
+						"Deseja mesmo excluir o item ?: '"+this.textContent+"'"
+					);
+					if (validacao) {
+						//removendo elementos
+						(this).parentNode.removeChild(this);
+					}
+					
+					
+					
+				}	
+
+				//forEach do javascript
+				lis.forEach(function(elemento,posicao){
+					elemento.addEventListener("click",remover)
+					
+				});
+
+				
+				newItem.addEventListener("keydown", function(event){
+					//event which refere-se ao código atrelado a tecla. neste caso 13 = enter
+					//event keyCode também.
+					if (event.keyCode == 13) {
+						adicionarTarefa();
+					}
+				});
+
+			})();
+		</script>
+	</body>
+</html>

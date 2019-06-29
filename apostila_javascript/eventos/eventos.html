@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<div class="container">
+		<button id="btn1" onclick="clicar()">botao1</button>
+		<button id="btn2">botao2</button>	
+	</div>
+	<script>
+		(function(){
+			
+			var btn2 = document.querySelector("#btn2");
+
+			//evento - dom nivel 0 (forma ruim de se usar os eventos)
+			//como estou fungindo do escopo global, o onclick presente no botão1 não vai pegar.
+			function clicar() {
+				console.log("cliquei");
+
+			}
+
+			btn2.onclick = clicar;
+
+
+		})();
+
+
+	</script>
+</body>
+</html>

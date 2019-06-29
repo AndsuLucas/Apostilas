@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title></title>
+		<link rel="stylesheet" href="">
+	</head>
+	<body>
+		<div class="container" style="margin: 0 auto; max-width: 250px; position: relative;">
+			<textarea style="resize: none;" name="texto" id="MeuTexto" cols="30" rows="10">
+				
+	
+			</textarea>
+			<span id="contador" style="display:block; position: absolute;right: 0;"></span>				
+		</div>
+			<script>
+				(function(){
+					const txtArea = document.querySelector("#MeuTexto");
+					
+					//faz algo ao pressionar uma tecla
+					/*
+					txtArea.addEventListener("keypress",function(){
+						console.log(this.value);
+
+					});
+					*/
+					
+					//quando a tecla é pressionada
+					/*
+					txtArea.addEventListener("keydown",function(){
+						console.log(this.value);
+					});
+					*/
+					//acontece quando o teclado é apertado e soltado
+					/*
+					txtArea.addEventListener("keyup",function(){
+						console.log(this.value);
+					});
+					*/
+					//sempre que um valor for inserido (muito bom!)	
+					//podemos disparalo quando copiamos e colamos algo
+					/*
+					txtArea.addEventListener("input",function(){
+						console.log(this.value);
+					})
+					*/
+				})();
+			</script>
+		</body>
+	</html>

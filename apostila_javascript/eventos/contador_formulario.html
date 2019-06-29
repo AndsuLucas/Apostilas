@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title></title>
+		<link rel="stylesheet" href="">
+	</head>
+	<body>
+		<div class="container" style="margin: 0 auto; max-width: 250px; position: relative;">
+			<!-- impede que passe de x caracteres -->
+			<textarea style="resize: none;" name="texto" id="MeuTexto" cols="30" rows="10" maxlength="150">
+			
+			
+			</textarea>
+			<div style="display: none;">caracteres Restantes:
+				<span id="contador" style="display:inline-block; position: absolute;right: 0;"></span> <!--contador -->
+			</div>
+		</div>
+		<script>
+				
+
+			(function(){
+				const txtArea       = document.querySelector("#MeuTexto");
+				//acessando a PROPRIEDADE/ATRIBUTO maxlenght do txtArea
+				const maxCaracteres = parseInt(txtArea.maxLength);
+				const contador      = document.querySelector("#contador");
+				
+				//fazendo o contador e a div que o engloba ficar visível
+				contador.parentNode.style.display = "block";
+				//checando quantidade de caracteres cada vez que eu colocar algum elemento no txtArea
+				txtArea.addEventListener("input", checarCaracteres);
+				//tirando espaços desnecessários do textarea
+				txtArea.addEventListener("focusout", function(){
+						this.value = this.value.trim();
+				});
+					
+				function checarCaracteres() {
+					//contando os caracteres Restantes
+					contador.textContent = parseInt(maxCaracteres - this.value.length);
+					
+					if (parseInt(contador.textContent) <= 0 ) {
+						contador.style.color = "red";
+					} else {
+						contador.style.color = "black";
+					}
+				
+				}
+			})();
+		</script>
+	</body>
+</html>

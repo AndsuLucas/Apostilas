@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<button id="click">click</button>
+	<script>
+		(function(){	
+			const click = document.querySelector("#click");
+			//criando um objeto capaz de ser manipulado ao dispararmos um evento
+			
+			click.addEventListener("click",function(event){
+				console.log(evento);
+				//capturando o objeto event
+			});
+
+		})();
+	</script>
+</body>
+</html>

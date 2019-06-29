@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	
+	<script>
+		//função construtora
+		/*
+		function Caneta(preco,cor){
+			//colocar a primeira letra maiúscula é uma boa prátca
+			
+			//caso não seja passado o parametro "preco", o valor vai ser 1
+			this.preco = preco || 1;
+
+			//caso não seja passado o parametro "cor", o valor vai ser black
+			this.cor = cor || "black";
+			
+			this.mudarCor = function(cor){
+				this.cor = cor;
+			}
+		}
+
+		var bic = new Caneta(33,"lilaz");
+		*/
+
+		//propriedade privada no javascript
+
+		function Caneta(preco,cor){
+			//cor está "private"
+			var cor = cor || "black";
+			//preco está "públic"
+			this.preco = preco || 1;
+			
+			this.mudarCor = function(cor){
+
+				cor = cor;
+
+			}
+			//so posso ter acesso por este método ao  atributo "cor"
+			this.mostrarCor  = function(){			
+				return cor;
+			}
+			
+		}
+		var bic = new Caneta();
+		
+	
+	</script>
+</body>
+</html>
