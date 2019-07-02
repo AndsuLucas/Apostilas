@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<script>
+		//literais
+		var meuNumero = 123;
+		//objeto
+		var meuNumeroObjeto = new Number("123");
+		//NUMBER contém propriedades e métodos.
+		            				//fixa as casas decimais que aparecem           
+		console.log(meuNumeroObjeto.toFixed(2)
+			//permite tratar o número como uma string	
+			.toString()
+				//só posso usar  pois estou tratando o número como uma string
+				.replace(".",",")
+		);
+		
+
+
+	</script>
+</body>
+</html>

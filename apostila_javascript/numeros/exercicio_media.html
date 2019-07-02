@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<script>
+		//retornar média com apenas duas casas decimais
+		(function(){
+			const nota1 = 5.7;
+			const nota2 = 7.5;
+			const nota3 = 3.5;
+			const nota4 = 4;
+			const nota5 = 5;
+
+			function calcularMedia(){
+				//pegando o número de notas passadas
+				const quantidadeNotas = arguments.length;
+				var soma              = new Number();
+				var contador          = new Number();
+				while (contador < quantidadeNotas) {
+					
+					if (typeof arguments[contador] === "number") {
+						soma += arguments[contador];
+					}	
+					contador ++;
+				
+				}
+				
+				var media = (soma / quantidadeNotas);
+
+				return media.toFixed(2).toString().replace(".",",");
+
+
+			}
+
+			console.log(calcularMedia(nota1,nota2,nota3,nota4,nota5));
+
+
+
+		})();
+
+	</script>							
+</body>
+</html>
