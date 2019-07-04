@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<script>
+	
+			// ARRAYS //
+			var arr = new Array(
+					1,2,3,4,5,"s"
+				);
+			//método every
+			//interage com o array de forma completa e retorna true ou false com base no código
+			//precisa que todos sejam números para retornar true
+			var numeros = arr.every( function(elemento_do_array,posicao_array,copia_do_array){
+				return typeof elemento_do_array == "number";
+				
+			})
+
+			console.log(numeros);
+			//retorna true se ao menos um for numerico
+			var numeros = arr.some( function(elemento_do_array,posicao_array,copia_do_array){
+				return typeof elemento_do_array == "number";
+				
+			})
+
+			console.log(numeros);
+			//filtra com base na função
+			var numeros = arr.filter(function(elemento){
+
+				return typeof elemento === "number";
+
+			});
+			console.log(numeros);
+			//foreach
+
+			arr.forEach( function(element, index) {
+				console.log(element)
+			});	
+			//colocando mais um elemento no final doarray
+
+			arr.push(50);
+			console.log(arr);
+			
+			//removendo um elemento do final do array
+			
+			arr.pop();
+			console.log(arr);
+
+			//removendo do começo do array
+			arr.shift();
+			console.log(arr);
+
+			//colocando item no inicio
+			arr.unshift("teste");
+			console.log(arr)
+
+		//})();
+	</script>
+</body>
+</html>
