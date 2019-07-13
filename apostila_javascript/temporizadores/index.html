@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+
+	<script>
+		(function(){
+			//temporizadores
+			
+			//executa depois de um tempo.
+			
+			/*
+			setTimeout(function(){
+				alert("oi");
+				
+			}, 1000);
+			*/
+			
+			//faz algo em um intervalo de tempo
+				//identificando o intervalo para manipularmos depois!
+			var n = 0;
+			var intervalo = setInterval(function(){
+				n++;
+
+				console.log(n);
+				if ( n === 2) {
+
+					clearInterval(intervalo);
+				}
+				
+			}, 1000)
+
+			//clearInterval(intervalo);
+
+		})();
+	</script>
+</body>
+</html>

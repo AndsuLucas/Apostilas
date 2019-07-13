@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<style>
+	p{
+		display: block;
+		font-size: 25px;
+		font-weight: bold;
+	}
+</style>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<h1>A data de hoje por extenso é: <span id="data"></span></h1>
+	<p id="semana"></p>
+	<p id="dia"></p>
+	<p id="mes"></p>
+	<p id="ano"></p>
+	<hr>
+	<p id="hora"></p>	
+	<p id="minuto"></p>
+	<p id="segundo"></p>
+	<hr>
+	<p id="getTime"></p>
+	<script>
+		(function(){
+			var data = new Date();
+				/// Data ///
+
+			//mostra a data inteira
+			document.getElementById("data").textContent    = data;
+			//mostrando a semana 
+			document.getElementById("semana").textContent = data.getDay();
+			//mostrando o o dia do mês
+			document.getElementById("dia").textContent     = data.getDate();
+			//mostrando o mês
+			document.getElementById("mes").textContent     = data.getMonth(); //ccomeça sempre no índice 0
+			document.getElementById("ano").textContent     = data.getFullYear();
+
+				/// Hora - !refere-se ao momento que eu instancio minha classe! ///
+				
+			//mostrando hora
+			document.getElementById("hora").textContent     = data.getHours();
+			//mosntrando minutos
+			document.getElementById("minuto").textContent   = data.getMinutes();
+			//mostrando segundos
+			document.getElementById("segundo").textContent  = data.getSeconds();
+			//getTime = timestamp-> número de milesegundos a partir de janeiro de 1970
+			document.getElementById("getTime").textContent  = data.getTime();
+
+
+		})();
+	</script>
+</body>
+</html>
