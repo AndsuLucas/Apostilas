@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<h1>saltos e controle de fluxo</h1>
+	
+</body>
+	<script>
+		(function(){
+			//saltos e controle de fluxo 
+			/* 
+				return 
+				break
+				continue
+
+			*/
+
+			var retorno = (function testeSaltos(){
+
+				for (var contador = 0; contador < 10; contador ++) {
+
+					
+
+					//retornando
+
+					if (contador === 5) {
+						//return contador; //sai da função, retorna para quem chamou a função
+						//break; //simplesmente sai do loop
+						continue;
+					}
+
+					console.log(contador); //quando contador for igual a 5, isso será ignorado. (graças ao continue)
+				}
+
+				/* testando com switch */
+
+				var numero = 3;
+
+				switch (numero) {
+					case (3):
+						console.log(3)
+						break; //caso não coloquemos o break, tudo sera executado (case 2 e 5);
+					case (2):
+						console.log(2)
+					case (5):
+						console.log(5)
+				}
+
+			})();
+			//valor retornado pelo return
+			/*console.log(retorno);*/
+		})();
+	</script>
+</html>

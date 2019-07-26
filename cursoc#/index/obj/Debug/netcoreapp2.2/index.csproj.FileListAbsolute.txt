@@ -1,0 +1,11 @@
+/home/andersonlucas/dotnetprojects/cursoc#/index/bin/Debug/netcoreapp2.2/index.deps.json
+/home/andersonlucas/dotnetprojects/cursoc#/index/bin/Debug/netcoreapp2.2/index.runtimeconfig.json
+/home/andersonlucas/dotnetprojects/cursoc#/index/bin/Debug/netcoreapp2.2/index.runtimeconfig.dev.json
+/home/andersonlucas/dotnetprojects/cursoc#/index/bin/Debug/netcoreapp2.2/index.dll
+/home/andersonlucas/dotnetprojects/cursoc#/index/bin/Debug/netcoreapp2.2/index.pdb
+/home/andersonlucas/dotnetprojects/cursoc#/index/obj/Debug/netcoreapp2.2/index.csprojAssemblyReference.cache
+/home/andersonlucas/dotnetprojects/cursoc#/index/obj/Debug/netcoreapp2.2/index.csproj.CoreCompileInputs.cache
+/home/andersonlucas/dotnetprojects/cursoc#/index/obj/Debug/netcoreapp2.2/index.AssemblyInfoInputs.cache
+/home/andersonlucas/dotnetprojects/cursoc#/index/obj/Debug/netcoreapp2.2/index.AssemblyInfo.cs
+/home/andersonlucas/dotnetprojects/cursoc#/index/obj/Debug/netcoreapp2.2/index.dll
+/home/andersonlucas/dotnetprojects/cursoc#/index/obj/Debug/netcoreapp2.2/index.pdb

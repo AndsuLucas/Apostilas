@@ -1,0 +1,42 @@
+h1{
+	text-align: center;
+}
+body{
+	height: 100vh;
+	margin: 0;
+}
+.carrossel{
+	position: relative;
+	height: 40%;
+	width: 80%;
+	margin: auto;
+	padding: 0;
+
+}.left{
+	left: 0;	
+}
+.right{
+	right: 0;
+}.right, .left{
+	
+	border: none;
+	height: 100%;
+	width: 5%;
+	position: absolute;
+	top: 0;
+	background-color: #000000a3;
+	color: white;
+	font-weight: bold;
+	font: 300 50px 'Arial';
+	cursor: pointer;
+}.right:hover, .left:hover{
+	color: #7371718c;
+	transition: color 1s;
+}
+.img-carrossel{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+	transition: 10s;
+}

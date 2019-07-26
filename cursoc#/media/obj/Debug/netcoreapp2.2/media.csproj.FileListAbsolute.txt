@@ -1,0 +1,11 @@
+/home/andersonlucas/dotnetprojects/cursoc#/media/bin/Debug/netcoreapp2.2/media.deps.json
+/home/andersonlucas/dotnetprojects/cursoc#/media/bin/Debug/netcoreapp2.2/media.runtimeconfig.json
+/home/andersonlucas/dotnetprojects/cursoc#/media/bin/Debug/netcoreapp2.2/media.runtimeconfig.dev.json
+/home/andersonlucas/dotnetprojects/cursoc#/media/bin/Debug/netcoreapp2.2/media.dll
+/home/andersonlucas/dotnetprojects/cursoc#/media/bin/Debug/netcoreapp2.2/media.pdb
+/home/andersonlucas/dotnetprojects/cursoc#/media/obj/Debug/netcoreapp2.2/media.csprojAssemblyReference.cache
+/home/andersonlucas/dotnetprojects/cursoc#/media/obj/Debug/netcoreapp2.2/media.csproj.CoreCompileInputs.cache
+/home/andersonlucas/dotnetprojects/cursoc#/media/obj/Debug/netcoreapp2.2/media.AssemblyInfoInputs.cache
+/home/andersonlucas/dotnetprojects/cursoc#/media/obj/Debug/netcoreapp2.2/media.AssemblyInfo.cs
+/home/andersonlucas/dotnetprojects/cursoc#/media/obj/Debug/netcoreapp2.2/media.dll
+/home/andersonlucas/dotnetprojects/cursoc#/media/obj/Debug/netcoreapp2.2/media.pdb

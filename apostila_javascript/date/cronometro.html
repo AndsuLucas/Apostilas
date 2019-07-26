@@ -80,6 +80,7 @@
 			var stop         = document.querySelector("#parar");
 			var init         = document.querySelector("#iniciar");
 			var reset        = document.querySelector("#resetar");			
+			
 			data.setHours(0);
 			data.setMinutes(0);
 			data.setSeconds(0);
@@ -121,6 +122,7 @@
 					secondsCount ++;
 					data.setSeconds(secondsCount);
 				}
+				
 				hour.textContent    = data.getHours()+":";
 				minutes.textContent = data.getMinutes()+":";
 				seconds.textContent = data.getSeconds();	

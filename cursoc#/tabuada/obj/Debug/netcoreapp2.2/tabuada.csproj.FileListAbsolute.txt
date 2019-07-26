@@ -1,0 +1,11 @@
+/home/andersonlucas/dotnetprojects/cursoc#/tabuada/obj/Debug/netcoreapp2.2/tabuada.csprojAssemblyReference.cache
+/home/andersonlucas/dotnetprojects/cursoc#/tabuada/obj/Debug/netcoreapp2.2/tabuada.csproj.CoreCompileInputs.cache
+/home/andersonlucas/dotnetprojects/cursoc#/tabuada/obj/Debug/netcoreapp2.2/tabuada.AssemblyInfoInputs.cache
+/home/andersonlucas/dotnetprojects/cursoc#/tabuada/obj/Debug/netcoreapp2.2/tabuada.AssemblyInfo.cs
+/home/andersonlucas/dotnetprojects/cursoc#/tabuada/bin/Debug/netcoreapp2.2/tabuada.deps.json
+/home/andersonlucas/dotnetprojects/cursoc#/tabuada/bin/Debug/netcoreapp2.2/tabuada.runtimeconfig.json
+/home/andersonlucas/dotnetprojects/cursoc#/tabuada/bin/Debug/netcoreapp2.2/tabuada.runtimeconfig.dev.json
+/home/andersonlucas/dotnetprojects/cursoc#/tabuada/bin/Debug/netcoreapp2.2/tabuada.dll
+/home/andersonlucas/dotnetprojects/cursoc#/tabuada/bin/Debug/netcoreapp2.2/tabuada.pdb
+/home/andersonlucas/dotnetprojects/cursoc#/tabuada/obj/Debug/netcoreapp2.2/tabuada.dll
+/home/andersonlucas/dotnetprojects/cursoc#/tabuada/obj/Debug/netcoreapp2.2/tabuada.pdb

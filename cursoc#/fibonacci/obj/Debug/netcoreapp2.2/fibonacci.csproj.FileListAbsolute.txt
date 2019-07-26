@@ -1,0 +1,11 @@
+/home/andersonlucas/dotnetprojects/cursoc#/fibonacci/obj/Debug/netcoreapp2.2/fibonacci.csprojAssemblyReference.cache
+/home/andersonlucas/dotnetprojects/cursoc#/fibonacci/obj/Debug/netcoreapp2.2/fibonacci.csproj.CoreCompileInputs.cache
+/home/andersonlucas/dotnetprojects/cursoc#/fibonacci/obj/Debug/netcoreapp2.2/fibonacci.AssemblyInfoInputs.cache
+/home/andersonlucas/dotnetprojects/cursoc#/fibonacci/obj/Debug/netcoreapp2.2/fibonacci.AssemblyInfo.cs
+/home/andersonlucas/dotnetprojects/cursoc#/fibonacci/bin/Debug/netcoreapp2.2/fibonacci.deps.json
+/home/andersonlucas/dotnetprojects/cursoc#/fibonacci/bin/Debug/netcoreapp2.2/fibonacci.runtimeconfig.json
+/home/andersonlucas/dotnetprojects/cursoc#/fibonacci/bin/Debug/netcoreapp2.2/fibonacci.runtimeconfig.dev.json
+/home/andersonlucas/dotnetprojects/cursoc#/fibonacci/bin/Debug/netcoreapp2.2/fibonacci.dll
+/home/andersonlucas/dotnetprojects/cursoc#/fibonacci/bin/Debug/netcoreapp2.2/fibonacci.pdb
+/home/andersonlucas/dotnetprojects/cursoc#/fibonacci/obj/Debug/netcoreapp2.2/fibonacci.dll
+/home/andersonlucas/dotnetprojects/cursoc#/fibonacci/obj/Debug/netcoreapp2.2/fibonacci.pdb
