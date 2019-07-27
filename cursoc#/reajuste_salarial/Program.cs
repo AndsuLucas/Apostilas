@@ -17,7 +17,7 @@ namespace reajuste_salarial
                 salario = salario + ((salario * 50) / 100);
             }
 
-            Console.WriteLine("Salário = "+salario);
+            Console.WriteLine(salario);
         }
     }
 }
