@@ -1,0 +1,11 @@
+/home/andersonlucas/repositorios/Apostilas/cursoc#/parouimpar/bin/Debug/netcoreapp2.2/parouimpar.deps.json
+/home/andersonlucas/repositorios/Apostilas/cursoc#/parouimpar/bin/Debug/netcoreapp2.2/parouimpar.runtimeconfig.json
+/home/andersonlucas/repositorios/Apostilas/cursoc#/parouimpar/bin/Debug/netcoreapp2.2/parouimpar.runtimeconfig.dev.json
+/home/andersonlucas/repositorios/Apostilas/cursoc#/parouimpar/bin/Debug/netcoreapp2.2/parouimpar.dll
+/home/andersonlucas/repositorios/Apostilas/cursoc#/parouimpar/bin/Debug/netcoreapp2.2/parouimpar.pdb
+/home/andersonlucas/repositorios/Apostilas/cursoc#/parouimpar/obj/Debug/netcoreapp2.2/parouimpar.csprojAssemblyReference.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/parouimpar/obj/Debug/netcoreapp2.2/parouimpar.csproj.CoreCompileInputs.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/parouimpar/obj/Debug/netcoreapp2.2/parouimpar.AssemblyInfoInputs.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/parouimpar/obj/Debug/netcoreapp2.2/parouimpar.AssemblyInfo.cs
+/home/andersonlucas/repositorios/Apostilas/cursoc#/parouimpar/obj/Debug/netcoreapp2.2/parouimpar.dll
+/home/andersonlucas/repositorios/Apostilas/cursoc#/parouimpar/obj/Debug/netcoreapp2.2/parouimpar.pdb

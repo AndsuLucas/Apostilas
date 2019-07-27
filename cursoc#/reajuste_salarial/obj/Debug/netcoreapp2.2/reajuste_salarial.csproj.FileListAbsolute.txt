@@ -1,0 +1,11 @@
+/home/andersonlucas/repositorios/Apostilas/cursoc#/reajuste_salarial/obj/Debug/netcoreapp2.2/reajuste_salarial.csprojAssemblyReference.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/reajuste_salarial/obj/Debug/netcoreapp2.2/reajuste_salarial.csproj.CoreCompileInputs.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/reajuste_salarial/obj/Debug/netcoreapp2.2/reajuste_salarial.AssemblyInfoInputs.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/reajuste_salarial/obj/Debug/netcoreapp2.2/reajuste_salarial.AssemblyInfo.cs
+/home/andersonlucas/repositorios/Apostilas/cursoc#/reajuste_salarial/bin/Debug/netcoreapp2.2/reajuste_salarial.deps.json
+/home/andersonlucas/repositorios/Apostilas/cursoc#/reajuste_salarial/bin/Debug/netcoreapp2.2/reajuste_salarial.runtimeconfig.json
+/home/andersonlucas/repositorios/Apostilas/cursoc#/reajuste_salarial/bin/Debug/netcoreapp2.2/reajuste_salarial.runtimeconfig.dev.json
+/home/andersonlucas/repositorios/Apostilas/cursoc#/reajuste_salarial/bin/Debug/netcoreapp2.2/reajuste_salarial.dll
+/home/andersonlucas/repositorios/Apostilas/cursoc#/reajuste_salarial/bin/Debug/netcoreapp2.2/reajuste_salarial.pdb
+/home/andersonlucas/repositorios/Apostilas/cursoc#/reajuste_salarial/obj/Debug/netcoreapp2.2/reajuste_salarial.dll
+/home/andersonlucas/repositorios/Apostilas/cursoc#/reajuste_salarial/obj/Debug/netcoreapp2.2/reajuste_salarial.pdb

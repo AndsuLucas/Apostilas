@@ -1,0 +1,11 @@
+/home/andersonlucas/repositorios/Apostilas/cursoc#/qtd_maiores/bin/Debug/netcoreapp2.2/qtd_maiores.deps.json
+/home/andersonlucas/repositorios/Apostilas/cursoc#/qtd_maiores/bin/Debug/netcoreapp2.2/qtd_maiores.runtimeconfig.json
+/home/andersonlucas/repositorios/Apostilas/cursoc#/qtd_maiores/bin/Debug/netcoreapp2.2/qtd_maiores.runtimeconfig.dev.json
+/home/andersonlucas/repositorios/Apostilas/cursoc#/qtd_maiores/bin/Debug/netcoreapp2.2/qtd_maiores.dll
+/home/andersonlucas/repositorios/Apostilas/cursoc#/qtd_maiores/bin/Debug/netcoreapp2.2/qtd_maiores.pdb
+/home/andersonlucas/repositorios/Apostilas/cursoc#/qtd_maiores/obj/Debug/netcoreapp2.2/qtd_maiores.csprojAssemblyReference.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/qtd_maiores/obj/Debug/netcoreapp2.2/qtd_maiores.csproj.CoreCompileInputs.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/qtd_maiores/obj/Debug/netcoreapp2.2/qtd_maiores.AssemblyInfoInputs.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/qtd_maiores/obj/Debug/netcoreapp2.2/qtd_maiores.AssemblyInfo.cs
+/home/andersonlucas/repositorios/Apostilas/cursoc#/qtd_maiores/obj/Debug/netcoreapp2.2/qtd_maiores.dll
+/home/andersonlucas/repositorios/Apostilas/cursoc#/qtd_maiores/obj/Debug/netcoreapp2.2/qtd_maiores.pdb
