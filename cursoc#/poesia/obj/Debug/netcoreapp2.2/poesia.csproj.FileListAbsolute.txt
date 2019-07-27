@@ -1,0 +1,11 @@
+/home/andersonlucas/repositorios/Apostilas/cursoc#/poesia/bin/Debug/netcoreapp2.2/poesia.deps.json
+/home/andersonlucas/repositorios/Apostilas/cursoc#/poesia/bin/Debug/netcoreapp2.2/poesia.runtimeconfig.json
+/home/andersonlucas/repositorios/Apostilas/cursoc#/poesia/bin/Debug/netcoreapp2.2/poesia.runtimeconfig.dev.json
+/home/andersonlucas/repositorios/Apostilas/cursoc#/poesia/bin/Debug/netcoreapp2.2/poesia.dll
+/home/andersonlucas/repositorios/Apostilas/cursoc#/poesia/bin/Debug/netcoreapp2.2/poesia.pdb
+/home/andersonlucas/repositorios/Apostilas/cursoc#/poesia/obj/Debug/netcoreapp2.2/poesia.csprojAssemblyReference.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/poesia/obj/Debug/netcoreapp2.2/poesia.csproj.CoreCompileInputs.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/poesia/obj/Debug/netcoreapp2.2/poesia.AssemblyInfoInputs.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/poesia/obj/Debug/netcoreapp2.2/poesia.AssemblyInfo.cs
+/home/andersonlucas/repositorios/Apostilas/cursoc#/poesia/obj/Debug/netcoreapp2.2/poesia.dll
+/home/andersonlucas/repositorios/Apostilas/cursoc#/poesia/obj/Debug/netcoreapp2.2/poesia.pdb

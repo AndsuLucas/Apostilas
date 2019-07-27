@@ -1,0 +1,11 @@
+/home/andersonlucas/repositorios/Apostilas/cursoc#/variaveis/bin/Debug/netcoreapp2.2/variaveis.deps.json
+/home/andersonlucas/repositorios/Apostilas/cursoc#/variaveis/bin/Debug/netcoreapp2.2/variaveis.runtimeconfig.json
+/home/andersonlucas/repositorios/Apostilas/cursoc#/variaveis/bin/Debug/netcoreapp2.2/variaveis.runtimeconfig.dev.json
+/home/andersonlucas/repositorios/Apostilas/cursoc#/variaveis/bin/Debug/netcoreapp2.2/variaveis.dll
+/home/andersonlucas/repositorios/Apostilas/cursoc#/variaveis/bin/Debug/netcoreapp2.2/variaveis.pdb
+/home/andersonlucas/repositorios/Apostilas/cursoc#/variaveis/obj/Debug/netcoreapp2.2/variaveis.csprojAssemblyReference.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/variaveis/obj/Debug/netcoreapp2.2/variaveis.csproj.CoreCompileInputs.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/variaveis/obj/Debug/netcoreapp2.2/variaveis.AssemblyInfoInputs.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/variaveis/obj/Debug/netcoreapp2.2/variaveis.AssemblyInfo.cs
+/home/andersonlucas/repositorios/Apostilas/cursoc#/variaveis/obj/Debug/netcoreapp2.2/variaveis.dll
+/home/andersonlucas/repositorios/Apostilas/cursoc#/variaveis/obj/Debug/netcoreapp2.2/variaveis.pdb
