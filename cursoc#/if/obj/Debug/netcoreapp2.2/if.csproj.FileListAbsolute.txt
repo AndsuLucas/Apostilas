@@ -1,0 +1,11 @@
+/home/andersonlucas/repositorios/Apostilas/cursoc#/if/bin/Debug/netcoreapp2.2/if.deps.json
+/home/andersonlucas/repositorios/Apostilas/cursoc#/if/bin/Debug/netcoreapp2.2/if.runtimeconfig.json
+/home/andersonlucas/repositorios/Apostilas/cursoc#/if/bin/Debug/netcoreapp2.2/if.runtimeconfig.dev.json
+/home/andersonlucas/repositorios/Apostilas/cursoc#/if/bin/Debug/netcoreapp2.2/if.dll
+/home/andersonlucas/repositorios/Apostilas/cursoc#/if/bin/Debug/netcoreapp2.2/if.pdb
+/home/andersonlucas/repositorios/Apostilas/cursoc#/if/obj/Debug/netcoreapp2.2/if.csprojAssemblyReference.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/if/obj/Debug/netcoreapp2.2/if.csproj.CoreCompileInputs.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/if/obj/Debug/netcoreapp2.2/if.AssemblyInfoInputs.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/if/obj/Debug/netcoreapp2.2/if.AssemblyInfo.cs
+/home/andersonlucas/repositorios/Apostilas/cursoc#/if/obj/Debug/netcoreapp2.2/if.dll
+/home/andersonlucas/repositorios/Apostilas/cursoc#/if/obj/Debug/netcoreapp2.2/if.pdb
