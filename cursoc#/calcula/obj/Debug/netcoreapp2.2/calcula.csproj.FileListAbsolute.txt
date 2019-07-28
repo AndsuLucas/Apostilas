@@ -1,0 +1,11 @@
+/home/andersonlucas/repositorios/Apostilas/cursoc#/calcula/obj/Debug/netcoreapp2.2/calcula.csprojAssemblyReference.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/calcula/obj/Debug/netcoreapp2.2/calcula.csproj.CoreCompileInputs.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/calcula/obj/Debug/netcoreapp2.2/calcula.AssemblyInfoInputs.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/calcula/obj/Debug/netcoreapp2.2/calcula.AssemblyInfo.cs
+/home/andersonlucas/repositorios/Apostilas/cursoc#/calcula/bin/Debug/netcoreapp2.2/calcula.deps.json
+/home/andersonlucas/repositorios/Apostilas/cursoc#/calcula/bin/Debug/netcoreapp2.2/calcula.runtimeconfig.json
+/home/andersonlucas/repositorios/Apostilas/cursoc#/calcula/bin/Debug/netcoreapp2.2/calcula.runtimeconfig.dev.json
+/home/andersonlucas/repositorios/Apostilas/cursoc#/calcula/bin/Debug/netcoreapp2.2/calcula.dll
+/home/andersonlucas/repositorios/Apostilas/cursoc#/calcula/bin/Debug/netcoreapp2.2/calcula.pdb
+/home/andersonlucas/repositorios/Apostilas/cursoc#/calcula/obj/Debug/netcoreapp2.2/calcula.dll
+/home/andersonlucas/repositorios/Apostilas/cursoc#/calcula/obj/Debug/netcoreapp2.2/calcula.pdb

@@ -1,0 +1,11 @@
+/home/andersonlucas/repositorios/Apostilas/cursoc#/2darray/obj/Debug/netcoreapp2.2/2darray.csprojAssemblyReference.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/2darray/obj/Debug/netcoreapp2.2/2darray.csproj.CoreCompileInputs.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/2darray/obj/Debug/netcoreapp2.2/2darray.AssemblyInfoInputs.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/2darray/obj/Debug/netcoreapp2.2/2darray.AssemblyInfo.cs
+/home/andersonlucas/repositorios/Apostilas/cursoc#/2darray/bin/Debug/netcoreapp2.2/2darray.deps.json
+/home/andersonlucas/repositorios/Apostilas/cursoc#/2darray/bin/Debug/netcoreapp2.2/2darray.runtimeconfig.json
+/home/andersonlucas/repositorios/Apostilas/cursoc#/2darray/bin/Debug/netcoreapp2.2/2darray.runtimeconfig.dev.json
+/home/andersonlucas/repositorios/Apostilas/cursoc#/2darray/bin/Debug/netcoreapp2.2/2darray.dll
+/home/andersonlucas/repositorios/Apostilas/cursoc#/2darray/bin/Debug/netcoreapp2.2/2darray.pdb
+/home/andersonlucas/repositorios/Apostilas/cursoc#/2darray/obj/Debug/netcoreapp2.2/2darray.dll
+/home/andersonlucas/repositorios/Apostilas/cursoc#/2darray/obj/Debug/netcoreapp2.2/2darray.pdb

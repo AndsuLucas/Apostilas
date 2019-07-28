@@ -1,0 +1,11 @@
+/home/andersonlucas/repositorios/Apostilas/cursoc#/poo/bin/Debug/netcoreapp2.2/poo.deps.json
+/home/andersonlucas/repositorios/Apostilas/cursoc#/poo/bin/Debug/netcoreapp2.2/poo.runtimeconfig.json
+/home/andersonlucas/repositorios/Apostilas/cursoc#/poo/bin/Debug/netcoreapp2.2/poo.runtimeconfig.dev.json
+/home/andersonlucas/repositorios/Apostilas/cursoc#/poo/bin/Debug/netcoreapp2.2/poo.dll
+/home/andersonlucas/repositorios/Apostilas/cursoc#/poo/bin/Debug/netcoreapp2.2/poo.pdb
+/home/andersonlucas/repositorios/Apostilas/cursoc#/poo/obj/Debug/netcoreapp2.2/poo.csprojAssemblyReference.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/poo/obj/Debug/netcoreapp2.2/poo.csproj.CoreCompileInputs.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/poo/obj/Debug/netcoreapp2.2/poo.AssemblyInfoInputs.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/poo/obj/Debug/netcoreapp2.2/poo.AssemblyInfo.cs
+/home/andersonlucas/repositorios/Apostilas/cursoc#/poo/obj/Debug/netcoreapp2.2/poo.dll
+/home/andersonlucas/repositorios/Apostilas/cursoc#/poo/obj/Debug/netcoreapp2.2/poo.pdb
