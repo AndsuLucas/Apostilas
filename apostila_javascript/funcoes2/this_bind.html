@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function  teste(){
+            console.log(this);
+        }            //mudando o this
+        var teste2 = teste.bind(window);
+        document.addEventListener("click", teste2);
+    </script>
+</body>
+</html>

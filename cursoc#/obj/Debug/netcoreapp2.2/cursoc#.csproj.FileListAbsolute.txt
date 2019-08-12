@@ -1,0 +1,6 @@
+/home/andersonlucas/repositorios/Apostilas/cursoc#/obj/Debug/netcoreapp2.2/cursoc#.csprojAssemblyReference.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/obj/Debug/netcoreapp2.2/cursoc#.csproj.CoreCompileInputs.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/obj/Debug/netcoreapp2.2/cursoc#.RazorAssemblyInfo.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/obj/Debug/netcoreapp2.2/cursoc#.RazorAssemblyInfo.cs
+/home/andersonlucas/repositorios/Apostilas/cursoc#/obj/Debug/netcoreapp2.2/cursoc#.AssemblyInfoInputs.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/obj/Debug/netcoreapp2.2/cursoc#.AssemblyInfo.cs

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        (function(){
+            var obj1 = {
+                name: "obj1",
+                log: function(msg){
+                    console.log(msg);
+                }
+            }
+
+            var obj2 = new Object();
+            obj2.name = "obj2";
+            
+            function Pessoa(nome){
+                this.nome = nome;
+                this.falar = function(msg){
+                    console.log(`${this.nome} fala ${msg}`);
+                }
+                this.endereco = "Rua algo";
+            }
+            var anderson = new Pessoa("Anderson");
+            var luana = Object.create(anderson);
+            
+
+            window.Pessoa = Pessoa;
+            window.obj1 = obj1;
+            window.obj2 = obj2;
+            
+            ``
+        })();
+    </script>
+</body>
+</html>

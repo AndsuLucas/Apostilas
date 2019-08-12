@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //module pattern
+        var beluga = {
+            number: {
+                value: 0,
+                add: function(n){
+                    this.value +=n;
+                },
+                log: function(){
+                    console.log(this.value);
+                }
+            }
+        }
+        //reveal pattern
+
+        var beluga2 = (function(){
+            var n = 0;
+            function isNumber(_n){
+                if (typeof _n === "number"){
+                    return true;
+                }
+                return false;
+            }
+            function add(_n){
+                
+                if (isNumber(_n)){
+                    n += _n;
+                }
+                
+            }
+            function log(){
+                console.log(n);
+            }
+            //so podem ter acesso a isso
+            return {
+                add: add,
+                log: log
+            }
+        })();
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+/home/andersonlucas/repositorios/Apostilas/cursoc#/arnaldo_aula1/bin/Debug/netcoreapp2.2/arnaldo_aula1.deps.json
+/home/andersonlucas/repositorios/Apostilas/cursoc#/arnaldo_aula1/bin/Debug/netcoreapp2.2/arnaldo_aula1.runtimeconfig.json
+/home/andersonlucas/repositorios/Apostilas/cursoc#/arnaldo_aula1/bin/Debug/netcoreapp2.2/arnaldo_aula1.runtimeconfig.dev.json
+/home/andersonlucas/repositorios/Apostilas/cursoc#/arnaldo_aula1/bin/Debug/netcoreapp2.2/arnaldo_aula1.dll
+/home/andersonlucas/repositorios/Apostilas/cursoc#/arnaldo_aula1/bin/Debug/netcoreapp2.2/arnaldo_aula1.pdb
+/home/andersonlucas/repositorios/Apostilas/cursoc#/arnaldo_aula1/obj/Debug/netcoreapp2.2/arnaldo_aula1.csprojAssemblyReference.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/arnaldo_aula1/obj/Debug/netcoreapp2.2/arnaldo_aula1.csproj.CoreCompileInputs.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/arnaldo_aula1/obj/Debug/netcoreapp2.2/arnaldo_aula1.AssemblyInfoInputs.cache
+/home/andersonlucas/repositorios/Apostilas/cursoc#/arnaldo_aula1/obj/Debug/netcoreapp2.2/arnaldo_aula1.AssemblyInfo.cs
+/home/andersonlucas/repositorios/Apostilas/cursoc#/arnaldo_aula1/obj/Debug/netcoreapp2.2/arnaldo_aula1.dll
+/home/andersonlucas/repositorios/Apostilas/cursoc#/arnaldo_aula1/obj/Debug/netcoreapp2.2/arnaldo_aula1.pdb
