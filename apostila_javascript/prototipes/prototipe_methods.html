@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    
+            function Animal(paramTipo){
+                this.tipo = paramTipo === undefined ? 'Desconhecido' : paramTipo;          
+                this.constructor = this;
+            }
+            
+            function Cachorro(nome, tipo){
+                this.nome = nome;
+                //pegando a propriedade que herda e atrlando ao tipo.
+                //estou executando a função construtora
+                Animal.call(this, tipo);
+                //setando o construtor para referência
+                this.constructor = this;
+            }
+            //herança
+            Cachorro.prototype = new Animal();
+
+
+            
+            Animal.prototype.obtemTipo = function () {
+                 //tudo que for construido com o construtor Animal vai receber essa função
+                 return this.tipo;
+            }
+            
+            var cachorro = new Cachorro('toto', 'mamifero');
+            //verificando se Cachorro é prototype de cachorro
+            console.log(Cachorro.prototype.isPrototypeOf(cachorro));
+            //tendo acesso a construtor
+            console.log(cachorro.constructor);
+            //obtendo o prototype do objeto cachorro (função construtora)
+            console.log(Object.getPrototypeOf(cachorro));
+            //verficando se um objeto é uma instância de determinada classe
+            console.log(cachorro instanceof Cachorro);
+
+            var lesma =  new Animal();
+
+    
+    </script>
+</body>
+</html>

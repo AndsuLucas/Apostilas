@@ -56,6 +56,28 @@
        const entries = Object.entries(obj);
        console.log(entries);
        novoObjeto.andar();
+
+
+       let nome      = "Anderson";
+       let sobrenome = "Lucas";
+
+       var pessoa = {
+           nome: nome,
+           sobrenome: sobrenome
+       } 
+       console.log(pessoa.nome+"  | "+pessoa.sobrenome);
+
+       //açucar sintático ecmascript6
+
+       var pessoa2 = {nome, sobrenome};
+       console.log(pessoa2.nome);
+       console.log(pessoa2.sobrenome);
+
+       //deletando propriedades de objetis
+       
+       delete pessoa2.nome;
+
+       console.log(pessoa2.nome);
     </script>
 </body>
 </html>

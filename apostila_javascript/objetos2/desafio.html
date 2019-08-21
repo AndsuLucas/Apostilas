@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        (() =>{
+           
+            var alunos = [
+                {
+                    nome:"Anderson"
+                   
+                },
+
+                {
+                    nome:"Matheus"
+                   
+                },
+
+                {
+                    nome:"Thiago"
+                   
+                },
+
+                {
+                    nome:"Sabrina"
+                   
+                },
+
+                {
+                    nome:"Matias"
+                   
+                }
+
+
+
+            ];
+            var faltas = [
+                {
+                    idAluno: 2,
+                    faltas: 10
+                },
+                {
+                    idAluno: 4,
+                    faltas: 73
+                },
+                {
+                    idAluno: 5,
+                    faltas: 15
+                },
+                {
+                    idAluno: 1,
+                    faltas: 17
+                },
+                {
+                    idAluno: 3,
+                    faltas: 32
+                }
+            ]
+            
+            let contador = 0;
+            for (let posicao in alunos){
+
+                contador ++;
+                alunos[posicao].id = contador;
+            }
+            var maiorFalta = new Object();
+            
+            faltas.forEach( (falta, index)=> {
+                
+                faltas  = falta.faltas;
+                idAluno = falta.idAluno; 
+                
+                if (index === 0){
+                    maiorFalta = { idAluno, faltas}
+                }
+                
+                if (faltas > maiorFalta.faltas) {
+                    
+                    maiorFalta = {idAluno, faltas}
+                
+                }
+
+            });
+
+           function acharAluno(element){
+               return element.id === maiorFalta.idAluno;
+           }
+           let resultadoAluno = alunos.filter(acharAluno)[0];
+
+           console.log(resultadoAluno.nome+" tem mais faltas");
+           
+        
+
+         
+
+            
+
+            
+
+
+        })();
+    </script>
+</body>
+</html>

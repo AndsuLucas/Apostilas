@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function Pessoa (nome, idade, sexo) {
+            this.nome  =  nome === undefined ? 'Anônimo' : nome; 
+            this.idade =  idade === undefined ? 'Desconhecida' : idade;
+            this.sexo  =  sexo === undefined ? 'Indefinido' : sexo; 
+        }
+        Pessoa.prototype.nome  = undefined;
+        Pessoa.prototype.sexo  = undefined;
+        Pessoa.prototype.idade = undefined;
+        Pessoa.prototype.falar = function(){
+            console.log(`Oi, meu nome é ${this.nome}. Tenho ${this.idade} anos de idade e sou do sexo ${this.sexo}`);
+        }
+
+        Pai.prototype = new Pessoa();
+        
+        function Pai(nome, idade, sexo){
+            Pessoa.call(this, nome, idade, sexo);
+            
+        }
+
+        
+        
+    
+    </script>
+</body>
+</html>
