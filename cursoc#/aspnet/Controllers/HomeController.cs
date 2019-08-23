@@ -35,6 +35,21 @@ namespace aspnet.Controllers
             return View();
              
         }
+        [HttpGet]
+        public IActionResult Questionario()
+        {
+
+            return View();
+        }
+        [HttpPost]
+        public IActionResult ResultadoQuestionario(string nome, string idade, string sexo)
+        {
+            ViewData["nome"]  = nome;
+            ViewData["idade"] = idade;
+            ViewData["sexo"]  = sexo == "m" ? "Masculino" : "Feminino";
+
+            return View();
+        }
 
         
 

@@ -30,3 +30,5 @@
 /home/andersonlucas/repositorios/Apostilas/cursoc#/aspnet/obj/Debug/netcoreapp2.2/aspnet.csproj.CopyComplete
 /home/andersonlucas/repositorios/Apostilas/cursoc#/aspnet/obj/Debug/netcoreapp2.2/Razor/Views/Home/Resultado.g.cshtml.cs
 /home/andersonlucas/repositorios/Apostilas/cursoc#/aspnet/obj/Debug/netcoreapp2.2/Razor/Views/Home/Soma.g.cshtml.cs
+/home/andersonlucas/repositorios/Apostilas/cursoc#/aspnet/obj/Debug/netcoreapp2.2/Razor/Views/Home/Questionario.g.cshtml.cs
+/home/andersonlucas/repositorios/Apostilas/cursoc#/aspnet/obj/Debug/netcoreapp2.2/Razor/Views/Home/ResultadoQuestionario.g.cshtml.cs
