@@ -44,6 +44,7 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  background-color: #dcdcdc47;
 }
 .footer {
   position: absolute;
@@ -53,4 +54,18 @@ body {
   /* Set the fixed height of the footer here */
   height: 60px;
   line-height: 60px; /* Vertically center the text there */
+}
+.header-primary{
+  background-color: #860404;
+  border-radius: 0;
+}
+.navbar{
+  height: 70px;
+ 
+}
+.bd-base-left{
+  border-left: 6px solid #860404;
+}
+.bg-white{
+  background-color: white;
 }

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #msg > h1{
+            font-weight: bold;
+            color: tomato;
+        }
+        .hidden{
+            display: none;
+        }
+        .main-container{
+            max-width: 600px;
+            margin: 0 auto;
+            border: 2px solid royalblue;
+        }
+        #btn-action{
+            width: 100%;
+        }
+        .active{
+            background-color: green;
+        }
+        .disable{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="main-container">
+            <div id="msg" class="hidden">
+                <h1>Seja bem vindo ao site! :)</h1>
+            </div>
+            <div>
+                <button id="btn-action">CLIQUE-ME!</button>
+            </div>
+        </div>
+
+    </main>
+</body>
+    <script>
+        (function(){
+            'use strict';
+            const btnAction = document.querySelector("#btn-action");
+            const msgBox    = document.querySelector("#msg");
+            //muda a visibilidade da div #msg
+            function changeMsgVisibility(){  
+                  if (msgBox.classList.contains("hidden")) {
+                      
+                    btnAction.classList.remove("active");
+                    
+                    btnAction.classList.add("disable");
+                    
+                    msgBox.classList.toggle("hidden");
+                    
+                  } else {
+                    btnAction.classList.remove("disable");
+                    
+                    btnAction.classList.add("active");
+                    
+                    msgBox.classList.toggle("hidden");
+                  }
+            } 
+
+            btnAction.addEventListener("click", changeMsgVisibility); 
+        })();
+    
+    </script>
+</html>

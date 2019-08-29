@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .times{
+           font: 15px 'Times';
+        }
+        .castellar{
+           font: 600 15px  'Castellar';
+        }
+        .arial{
+            font: 20px 'Arial';
+        }
+        .verdana{
+            font: 500 13px "verdana"
+        }
+        .courier{
+            font: 20px 'Courier';
+        }
+        #text{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <main>    
+        <div class="info">
+                <h1>Escolha uma fonte:</h1>
+                <div id="fontes">
+                    <button class="times">Times</button>
+                    <button class="castellar">Castellar</button>
+                    <button class="arial">Arial</button>
+                    <button class="verdana">Verdana</button>
+                    <button class="courier">Courier</button>
+                </div>
+        </div>
+            <div>
+                <p id="text" style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi reprehenderit ut sapiente fuga, iusto animi accusamus nulla rem, 
+                        ullam deserunt perferendis nam ipsum aspernatur aliquid. Aliquid perspiciatis sapiente quam similique?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi reprehenderit ut sapiente fuga, iusto animi accusamus nulla rem, 
+                        ullam deserunt perferendis nam ipsum aspernatur aliquid. Aliquid perspiciatis sapiente quam similique?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi reprehenderit ut sapiente fuga, iusto animi accusamus nulla rem, 
+                        ullam deserunt perferendis nam ipsum aspernatur aliquid. Aliquid perspiciatis sapiente quam similique?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi reprehenderit ut sapiente fuga, iusto animi accusamus nulla rem, 
+                        ullam deserunt perferendis nam ipsum aspernatur aliquid. Aliquid perspiciatis sapiente quam similique?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi reprehenderit ut sapiente fuga, iusto animi accusamus nulla rem, 
+                        ullam deserunt perferendis nam ipsum aspernatur aliquid. Aliquid perspiciatis sapiente quam similique?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi reprehenderit ut sapiente fuga, iusto animi accusamus nulla rem, 
+                        ullam deserunt perferendis nam ipsum aspernatur aliquid. Aliquid perspiciatis sapiente quam similique?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi reprehenderit ut sapiente fuga, iusto animi accusamus nulla rem, 
+                        ullam deserunt perferendis nam ipsum aspernatur aliquid. Aliquid perspiciatis sapiente quam similique?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi reprehenderit ut sapiente fuga, iusto animi accusamus nulla rem, 
+                        ullam deserunt perferendis nam ipsum aspernatur aliquid. Aliquid perspiciatis sapiente quam similique?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi reprehenderit ut sapiente fuga, iusto animi accusamus nulla rem, 
+                        ullam deserunt perferendis nam ipsum aspernatur aliquid. Aliquid perspiciatis sapiente quam similique?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi reprehenderit ut sapiente fuga, iusto animi accusamus nulla rem, 
+                        ullam deserunt perferendis nam ipsum aspernatur aliquid. Aliquid perspiciatis sapiente quam similique?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi reprehenderit ut sapiente fuga, iusto animi accusamus nulla rem, 
+                        ullam deserunt perferendis nam ipsum aspernatur aliquid. Aliquid perspiciatis sapiente quam similique?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi reprehenderit ut sapiente fuga, iusto animi accusamus nulla rem, 
+                        ullam deserunt perferendis nam ipsum aspernatur aliquid. Aliquid perspiciatis sapiente quam similique?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi reprehenderit ut sapiente fuga, iusto animi accusamus nulla rem, 
+                        ullam deserunt perferendis nam ipsum aspernatur aliquid. Aliquid perspiciatis sapiente quam similique?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi reprehenderit ut sapiente fuga, iusto animi accusamus nulla rem, 
+                        ullam deserunt perferendis nam ipsum aspernatur aliquid. Aliquid perspiciatis sapiente quam similique?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi reprehenderit ut sapiente fuga, iusto animi accusamus nulla rem, 
+                        ullam deserunt perferendis nam ipsum aspernatur aliquid. Aliquid perspiciatis sapiente quam similique?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi reprehenderit ut sapiente fuga, iusto animi accusamus nulla rem, 
+                        ullam deserunt perferendis nam ipsum aspernatur aliquid. Aliquid perspiciatis sapiente quam similique?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi reprehenderit ut sapiente fuga, iusto animi accusamus nulla rem, 
+                        ullam deserunt perferendis nam ipsum aspernatur aliquid. Aliquid perspiciatis sapiente quam similique?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi reprehenderit ut sapiente fuga, iusto animi accusamus nulla rem, 
+                        ullam deserunt perferendis nam ipsum aspernatur aliquid. Aliquid perspiciatis sapiente quam similique?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi reprehenderit ut sapiente fuga, iusto animi accusamus nulla rem, 
+                        ullam deserunt perferendis nam ipsum aspernatur aliquid. Aliquid perspiciatis sapiente quam similique?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi reprehenderit ut sapiente fuga, iusto animi accusamus nulla rem, 
+                        ullam deserunt perferendis nam ipsum aspernatur aliquid. Aliquid perspiciatis sapiente quam similique?
+                </p>
+            </div>
+    </main>
+</body>
+    <script>
+        (function(){
+            'use strict';
+            const text       = document.querySelector("#text");
+            const btnsAction = document.querySelectorAll("#fontes > button");
+
+            function changeFont(){
+                let actualClassName = text.className.trim().length === 0 ? "no-class" : text.className;
+                
+                text.classList.remove(actualClassName);
+                text.classList.add(this.className);
+
+            }
+
+           btnsAction.forEach(btn =>{
+               btn.addEventListener("click", changeFont); 
+           });
+
+        })();
+    </script>
+</html>

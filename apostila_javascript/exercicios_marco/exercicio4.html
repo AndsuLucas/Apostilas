@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .imagens{
+            border: 2px solid black;
+            max-width: 40%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .img{
+            width: 100%;
+        }
+        .img img{
+            min-width: 100%;
+        }.text{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="imagens">
+            <div class="img">
+                <img src="imagens/eng.jpeg" alt="" width="300px" >
+            </div>
+            <p class="text">
+
+            </p>
+        </div>
+    </main>
+</body>
+    <script>
+        (function(){
+            const imgs = [
+                'eng.jpeg', 'programadeiro2.jpg', 'programadero.jpeg', 'programador.jpeg', 'sucesso.jpg'
+            ];
+            const labelImgs = [
+                "O que acham que fazemos quando falamos que somos profissionais ti", "O nosso cérebro está em constante mudança, cada vez mais com coisas novas",
+                "Apesar de tudo somos felizes fazendo o que fazemos :)", "Nos esforçamos dia e noite para um dia..", "Para um dia alcançar o sucesso"
+            ]
+            var imagem = document.querySelector(".img > img");
+            var contador = 0;
+            var texto = document.querySelector(".text"); 
+            texto.textContent = labelImgs[0];
+            document.addEventListener("keydown", function(){
+               
+                if (event.code === "ArrowRight") {
+                    
+                    contador ++;
+                    
+                    if (contador > 4){
+                        contador = 0;
+                    }
+                    
+                    imagem.setAttribute("src", "imagens/"+imgs[contador]);
+                    texto.textContent = labelImgs[contador];
+                    
+                }
+
+                else if (event.code === "ArrowLeft") {
+                    
+                    contador --;
+                    
+                    if (contador < 0){
+                        contador = 4;
+                    }
+                    
+                    imagem.setAttribute("src", "imagens/"+imgs[contador]);
+                    texto.textContent = labelImgs[contador];
+                }
+            });
+        
+        })();
+    </script>
+</html>
