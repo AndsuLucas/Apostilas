@@ -3,7 +3,7 @@ class ListaAlunos
     //não interfira na lista dentro da classe
     constructor(lista)
     {
-        this.lista =[].concat(lista);
+        this.lista = lista;
 
     }
 }

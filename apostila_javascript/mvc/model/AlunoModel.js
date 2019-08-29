@@ -24,13 +24,13 @@ class Aluno
 
     calcularMedia()
     {   
+        let soma = this.notas.reduce( (soma, nota) => {
+            return soma + nota;
+        });
 
-        let soma  = this.notas.reduce((nota) => {
-            return nota + nota;
-        });   
+        this.media = soma / this.notas.length;  
+        }
 
-        this.media = soma / this.notas.length;
-    }
 
     retornarMedia()
     {

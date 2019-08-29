@@ -8,7 +8,8 @@ class ListaAlunosView
     getTemplate(model)
     {
         return  `
-            ${model.lista.map( aluno => {
+            ${model.lista.map( aluno => 
+                
                 `
                     <tr>
                         <td>${aluno.nome}</td>
@@ -20,8 +21,12 @@ class ListaAlunosView
 
                     <tr>
                 `
-                }
-            )}
+                
+            ).join("")}
         `
+    }
+    atualiza(model)
+    {
+        this.seletor.innerHTML = this.getTemplate(model);
     }
 }
