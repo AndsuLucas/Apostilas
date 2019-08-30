@@ -5,10 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "node",
+            "type": "chrome",
             "request": "launch",
+            "port": 9222,
+            "trace": true, 
             "name": "Launch Program",
-            "program": "${workspaceFolder}/view/ListaAlunosView.js"
+            "webRoot": "${workspaceRoot}/",
+            "file": "${workspaceRoot}/index.html",
+            "userDataDir": "${workspaceRoot}/.vscode/chrome"
         }
     ]
 }

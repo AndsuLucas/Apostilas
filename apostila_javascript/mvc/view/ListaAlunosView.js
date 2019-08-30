@@ -11,7 +11,7 @@ class ListaAlunosView
             ${model.lista.map( aluno => 
                 
                 `
-                    <tr>
+                    <tr id='${aluno.id}'>
                         <td>${aluno.nome}</td>
                         <td>${aluno.notas[0]}</td>
                         <td>${aluno.notas[1]}</td>
@@ -19,7 +19,7 @@ class ListaAlunosView
                         <td>${aluno.notas[3]}</td>
                         <td>${aluno.retornarMedia()}</td>                        
 
-                    <tr>
+                    </tr>
                 `
                 
             ).join("")}

@@ -2,12 +2,14 @@
 class Aluno 
 {
     
-    constructor(nome)
+    constructor(nome, id, notas)
     {
         this.nome = nome;
         this.notas = [
 
         ];
+        this.notas = (notas !== undefined) ? notas : []; 
+        this.id = id;
         this.media = undefined;
     }
 
@@ -29,7 +31,7 @@ class Aluno
         });
 
         this.media = soma / this.notas.length;  
-        }
+    }
 
 
     retornarMedia()
@@ -37,5 +39,10 @@ class Aluno
         this.calcularMedia();
 
         return this.media;
+    }
+    
+    atualizarNotas(notas)
+    {
+        this.notas = [].concat(notas);
     }
 }

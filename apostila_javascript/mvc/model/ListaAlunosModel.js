@@ -6,4 +6,15 @@ class ListaAlunos
         this.lista = lista;
 
     }
+    obterPorId(id)
+    {   
+        return  this.lista.filter( aluno => aluno.id === id)[0];
+    
+    }
+
+    adicionarAluno(aluno)
+    {
+        this.lista.push(aluno);
+    }
+
 }
