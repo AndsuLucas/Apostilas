@@ -16,5 +16,9 @@ class ListaAlunos
     {
         this.lista.push(aluno);
     }
-
+    
+    atualizarLista(novaLista)
+    {
+        this.lista = [].concat(novaLista);
+    }
 }

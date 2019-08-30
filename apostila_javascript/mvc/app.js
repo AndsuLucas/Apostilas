@@ -13,19 +13,31 @@ const listaAlunosController = new ListaAlunosController(listaAlunos, listaAlunos
 listaAlunosView.atualiza(listaAlunos);
 const formAdicionarAlunoView = new FormAdicionarAlunoView("#form-placeholder"); 
 const formAdicionarAlunoController = new FormAdicionarAlunoController(listaAlunos, formAdicionarAlunoView);
-
-document.querySelector("#frm-adiciona-aluno").addEventListener('submit', () => {
-
+const formBuscaAlunoView = new FormBuscaAlunoView("#frm-busca-placeholder");
+const formBuscaAlunoController = new FormBuscaAlunoController(listaAlunos, listaAlunosView);
+document.querySelector("#frm-adiciona-aluno").addEventListener('submit', (event) => {
+    event.preventDefault();
     const nome = document.querySelector("#aluno-nome").value;
 
     const dom_notas = document.querySelectorAll('.nota');
 
-    const notas = Array.prototype.map.call(dom_notas, elemento => parseFloat( elemento.value ) );
+    const notas = Array.prototype.map.call(dom_notas, elemento => 
+        parseFloat(elemento.value)
+    );
 
     listaAlunosController.adicionarAlunos(nome, notas);
     formAdicionarAlunoController.limpar();
 });
 
+document.querySelector("#frm-busca").addEventListener('submit', function(event){
+    event.preventDefault();
+
+    let padrao = this;
+    padrao = this.querySelector("#nome-busca").value;
+    let result = formBuscaAlunoController.buscar(padrao);
+    let listaBusca = new ListaAlunos(result);
+    listaAlunosView.atualiza(listaBusca);
+});
 
 
 

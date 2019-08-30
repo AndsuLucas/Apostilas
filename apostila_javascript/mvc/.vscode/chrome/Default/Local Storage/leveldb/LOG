@@ -4,3 +4,12 @@
 2019/08/30-14:33:07.444 54d Level-0 table #5: started
 2019/08/30-14:33:07.515 54d Level-0 table #5: 10258 bytes OK
 2019/08/30-14:33:07.561 54d Delete type=0 #3
+2019/08/30-15:52:04.970 290d Level-0 table #7: started
+2019/08/30-15:52:05.024 290d Level-0 table #7: 10545 bytes OK
+2019/08/30-15:52:05.081 290d Delete type=0 #4
+2019/08/30-15:58:59.323 54d Level-0 table #9: started
+2019/08/30-15:58:59.374 54d Level-0 table #9: 11870 bytes OK
+2019/08/30-15:58:59.442 54d Delete type=0 #6
+2019/08/30-16:16:44.992 290d Level-0 table #11: started
+2019/08/30-16:16:45.066 290d Level-0 table #11: 13551 bytes OK
+2019/08/30-16:16:45.134 290d Delete type=0 #8
