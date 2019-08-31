@@ -47,8 +47,12 @@
             id   : id_aluno_elemento_html.value,
             notas: notas_float_values, 
             media: calcularMedia(notas_float_values)
+        }  
+            //return true or false
+        if (checkIdExiste(novoAluno.id, listaAlunos)) {
+            return;
         }
-        
+        console.log("passou");
         const newList = adicionarAlunoLista(listaAlunos, novoAluno);
         adicionarNovoAlunoController( newList, listarAlunos );
         

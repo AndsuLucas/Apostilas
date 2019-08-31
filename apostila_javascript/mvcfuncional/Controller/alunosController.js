@@ -16,3 +16,12 @@ const limparFormulario = (elementosHtml) => {
     return;
     
 }
+
+const checkIdExiste = (id, lista) => {
+    const exists = lista.filter(
+        registro => registro.id == id
+    );
+    console.log(lista);
+
+    return exists.length !== 0 ? true : false; 
+}
