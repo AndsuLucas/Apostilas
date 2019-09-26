@@ -27,7 +27,7 @@
         }
 
     ];
-
+    
     listarAlunos("#alunos-lista", listaAlunos);    
     retornarFormularioAdicionaAluno("#frm-adiciona-aluno");    
     
