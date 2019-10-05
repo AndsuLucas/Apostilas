@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'factory\\' => array($baseDir . '/factory'),
+    'abstractFactory\\' => array($baseDir . '/abstractfactory'),
 );

@@ -1,7 +1,10 @@
 <?php 
 
 namespace factory;
-
+/**
+*
+*@return Http
+*/
 class Http implements HttpInterface
 {	
 	private $httpOptions;
@@ -26,5 +29,8 @@ class Http implements HttpInterface
 		return $this->httpArgs["REQUEST_URI"];
 	}
 
-
+	public function getProtocolVersion()
+	{
+		return $this->httpArgs["SERVER_PROTOCOL"];
+	}
 }
